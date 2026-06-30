@@ -6,3 +6,4 @@
 *.avi
 __pycache__/
 .ipynb_checkpoints/
+File_private/

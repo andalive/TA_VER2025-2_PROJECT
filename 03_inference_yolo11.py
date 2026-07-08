@@ -2,8 +2,8 @@
 Inference Semi Real-Time — YOLO11-pose + PoseC3D
 =================================================
 Jalankan dari terminal:
-    python inference_yolo11.py --mode camera
-    python inference_yolo11.py --mode video --input data/test_video/input.mp4
+    python 03_inference_yolo11.py --mode camera
+    python 03_inference_yolo11.py --mode video --input data/test_video/input.mp4
 
 Tekan Q untuk keluar (mode camera).
 """

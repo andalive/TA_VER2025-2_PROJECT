@@ -1,0 +1,7 @@
+0: normal
+1: berjongkok
+2: merayap
+3: membidik senapan
+4: membidik pistol
+5: memukul
+6: menendang

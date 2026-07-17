@@ -2,8 +2,8 @@
 Inference Semi Real-Time — YOLOv8 + BoT-SORT + HRNet + PoseC3D
 ===============================================================
 Jalankan dari terminal:
-    python 03_inference_hrnet.py --mode video --input data/test_video/input.mp4
-    python 03_inference_hrnet.py --mode camera
+    python 04_inference_hrnet.py --mode video --input data/test_video/input.mp4 --> contoh (sesuaikan path input)
+    python 04_inference_hrnet.py --mode camera
 
 Tekan Q untuk keluar (mode camera).
 """
@@ -35,7 +35,7 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 #  KONFIGURASI — sesuaikan path di sini
 # ─────────────────────────────────────────────────────────────────────────────
 SKELETON_CONFIG     = '01_asset_tools/ciis_7.py'
-SKELETON_CHECKPOINT = '02_work_dirs/ciis_7_gab2_2s/best_acc_top1_epoch_230.pth'
+SKELETON_CHECKPOINT = '02_work_dirs/<sesuaikan_folder>/<sesuaikan_checkpoint>.pth'
 LABEL_MAP_FILE      = '03_dataset/ciis_label_map.txt'
 
 # YOLOv8 — deteksi manusia
@@ -59,7 +59,7 @@ CAMERA_IDX        = 0
 CAMERA_W          = 640
 CAMERA_H          = 480
 VIDEO_OUT_DEFAULT = '03_dataset/test_video/test_out/output1_hrnet.mp4'
-CAMERA_OUT        = '03_dataset/test_video/test_out/camera2_hrnet.mp4'
+CAMERA_OUT        = '04_lampiran/<sesuaikan>.mp4'
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  HELPER
